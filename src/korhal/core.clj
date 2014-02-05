@@ -2,7 +2,8 @@
   (:require [korhal.interop.interop :refer :all]
             [korhal.tools.util :refer [swap-key swap-keys profile]]
             [korhal.tools.repl :refer :all]
-            [korhal.tools.queue :refer :all])
+            [korhal.tools.queue :refer :all]
+            [korhal.rules.rules :refer :all])
   (:import (clojure.lang.IDeref)
            (jnibwapi.JNIBWAPI)
            (jnibwapi.BWAPIEventListener)))
